@@ -1,0 +1,14 @@
+# meshforge local deps (Half A client + Half B geometry).
+# The heavy 3D-gen model itself runs remotely on free HF ZeroGPU, NOT here.
+
+# --- Half A: generation backbone client ---
+gradio_client>=1.3
+
+# --- Half B: print-prep pipeline (local CPU geometry) ---
+trimesh>=4.4
+numpy>=1.26
+pillow>=10.0
+scipy>=1.11          # convex hull / orientation search
+networkx>=3.2        # part-connectivity graph for splitting
+manifold3d>=2.5      # robust boolean ops for dowel/socket cutting
+shapely>=2.0         # 2D footprint / overhang analysis

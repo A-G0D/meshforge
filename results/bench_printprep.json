@@ -1,0 +1,558 @@
+{
+ "summary": {
+  "repair_cases": 36,
+  "naive_rate": 0.3611111111111111,
+  "meshforge_rate": 0.9722222222222222,
+  "median_s_meshforge": 0.042512458499999184,
+  "median_faces": 2761.0,
+  "orient_cases": 18,
+  "support_frac_before": 0.12343004564833399,
+  "support_frac_after": 0.09359095919922182,
+  "median_orient_s": 0.19556622899999976,
+  "machine": "arm64 Darwin py3.9.6 trimesh 4.12.2"
+ },
+ "repair": [
+  {
+   "mesh": "featuretype.STL",
+   "defect": "holes2",
+   "faces": 3395,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.02100545800000031,
+   "meshforge_s": 0.05805216700000049,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "featuretype.STL",
+   "defect": "holes10",
+   "faces": 3100,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.02426508299999952,
+   "meshforge_s": 0.1012481670000005,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0004441965130604889
+  },
+  {
+   "mesh": "featuretype.STL",
+   "defect": "flip30",
+   "faces": 3476,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.003713084000000144,
+   "meshforge_s": 1.0593512920000006,
+   "naive_vol_err": 0.6977393418716995,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "featuretype.STL",
+   "defect": "dup5",
+   "faces": 3676,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.01306887500000009,
+   "meshforge_s": 0.020801249999999882,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "featuretype.STL",
+   "defect": "soup",
+   "faces": 3476,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.021560458000000615,
+   "meshforge_s": 0.05298274999999997,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "featuretype.STL",
+   "defect": "combo",
+   "faces": 3383,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0270261249999999,
+   "meshforge_s": 0.998733959,
+   "naive_vol_err": 0.3895098090858081,
+   "meshforge_vol_err": 9.047130531140754e-07
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "holes2",
+   "faces": 3728,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.05367833299999969,
+   "meshforge_s": 0.0319053329999992,
+   "naive_vol_err": 1.2180326266715667e-06,
+   "meshforge_vol_err": 1.2180326266715667e-06
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "holes10",
+   "faces": 3406,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.04892791600000024,
+   "meshforge_s": 0.14890854200000003,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 3.569960348815098e-05
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "flip30",
+   "faces": 3796,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.007717459000000204,
+   "meshforge_s": 1.2975819999999993,
+   "naive_vol_err": 0.6101919275197318,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "dup5",
+   "faces": 3996,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0087902919999987,
+   "meshforge_s": 0.03932512499999952,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "soup",
+   "faces": 3796,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.023493499999998946,
+   "meshforge_s": 0.02717349999999996,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "ballA.off",
+   "defect": "combo",
+   "faces": 3696,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.049043124999998966,
+   "meshforge_s": 1.1986535409999988,
+   "naive_vol_err": 0.3828160101225946,
+   "meshforge_vol_err": 3.979310231222327e-07
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "holes2",
+   "faces": 1249,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.011351624999999643,
+   "meshforge_s": 0.020104374999998953,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "holes10",
+   "faces": 1144,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.02970508300000141,
+   "meshforge_s": 0.06627162500000061,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 9.752612128084184e-05
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "flip30",
+   "faces": 1280,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0038698749999994675,
+   "meshforge_s": 0.3623455409999998,
+   "naive_vol_err": 0.6086925768607052,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "dup5",
+   "faces": 1334,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.005706791999999794,
+   "meshforge_s": 0.0260864999999999,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "soup",
+   "faces": 1280,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.01842662500000003,
+   "meshforge_s": 0.029220915999999875,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "icosphere",
+   "defect": "combo",
+   "faces": 1234,
+   "naive_ok": false,
+   "meshforge_ok": false,
+   "naive_s": 0.01643400000000028,
+   "meshforge_s": 0.3357412909999997,
+   "naive_vol_err": 0.43564779903481887,
+   "meshforge_vol_err": 1.9999845944592811
+  },
+  {
+   "mesh": "box",
+   "defect": "holes2",
+   "faces": 12,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.009931374999998965,
+   "meshforge_s": 0.002126332999999647,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "box",
+   "defect": "holes10",
+   "faces": 9,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.009163749999999027,
+   "meshforge_s": 0.007470459000000318,
+   "naive_vol_err": 0.16666666666666666,
+   "meshforge_vol_err": 0.16666666666666666
+  },
+  {
+   "mesh": "box",
+   "defect": "flip30",
+   "faces": 12,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0005733330000001757,
+   "meshforge_s": 0.009519750000000826,
+   "naive_vol_err": 1.5,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "box",
+   "defect": "dup5",
+   "faces": 13,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0013854169999998334,
+   "meshforge_s": 0.006145292000001135,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "box",
+   "defect": "soup",
+   "faces": 12,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.0030314999999987435,
+   "meshforge_s": 0.003653332999999037,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "box",
+   "defect": "combo",
+   "faces": 12,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.0007634579999997726,
+   "meshforge_s": 0.0058520830000006185,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "torus",
+   "defect": "holes2",
+   "faces": 2267,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.019633250000000046,
+   "meshforge_s": 0.04569979199999885,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "torus",
+   "defect": "holes10",
+   "faces": 2081,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.023168249999999446,
+   "meshforge_s": 0.08611883300000045,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.00046998849372671133
+  },
+  {
+   "mesh": "torus",
+   "defect": "flip30",
+   "faces": 2304,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.009062625000000324,
+   "meshforge_s": 0.6542137500000003,
+   "naive_vol_err": 0.5500778755037659,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "torus",
+   "defect": "dup5",
+   "faces": 2422,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.010898584000001321,
+   "meshforge_s": 0.0108612499999996,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "torus",
+   "defect": "soup",
+   "faces": 2304,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.017592499999999234,
+   "meshforge_s": 0.01059779099999858,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "torus",
+   "defect": "combo",
+   "faces": 2224,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.031504541999998636,
+   "meshforge_s": 0.4324800419999999,
+   "naive_vol_err": 0.36824660819448113,
+   "meshforge_vol_err": 4.002867750396364e-05
+  },
+  {
+   "mesh": "capsule",
+   "defect": "holes2",
+   "faces": 3765,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.021160083000001606,
+   "meshforge_s": 0.03055849999999971,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "capsule",
+   "defect": "holes10",
+   "faces": 3482,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.02976912499999962,
+   "meshforge_s": 0.1323192079999984,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 5.062832532333627e-05
+  },
+  {
+   "mesh": "capsule",
+   "defect": "flip30",
+   "faces": 3840,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.01717337500000049,
+   "meshforge_s": 1.0895649580000004,
+   "naive_vol_err": 0.7457747804813212,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "capsule",
+   "defect": "dup5",
+   "faces": 4047,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.012377666999999093,
+   "meshforge_s": 0.011514417000000776,
+   "naive_vol_err": null,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "capsule",
+   "defect": "soup",
+   "faces": 3840,
+   "naive_ok": true,
+   "meshforge_ok": true,
+   "naive_s": 0.016651083999999372,
+   "meshforge_s": 0.013116000000000128,
+   "naive_vol_err": 0.0,
+   "meshforge_vol_err": 0.0
+  },
+  {
+   "mesh": "capsule",
+   "defect": "combo",
+   "faces": 3723,
+   "naive_ok": false,
+   "meshforge_ok": true,
+   "naive_s": 0.02187387500000071,
+   "meshforge_s": 0.7311528339999995,
+   "naive_vol_err": 0.35137658146862166,
+   "meshforge_vol_err": 1.4249001703464988e-06
+  }
+ ],
+ "orient": [
+  {
+   "mesh": "featuretype.STL",
+   "seed": 0,
+   "total_area": 53.82738611818217,
+   "support_before": 1.1275449074289547,
+   "support_after": 1.1169723740963027,
+   "seconds": 0.19398608300000042
+  },
+  {
+   "mesh": "featuretype.STL",
+   "seed": 1,
+   "total_area": 53.82738611818216,
+   "support_before": 4.435862847448601,
+   "support_after": 4.435862847448601,
+   "seconds": 0.09519491600000052
+  },
+  {
+   "mesh": "featuretype.STL",
+   "seed": 2,
+   "total_area": 53.82738611818216,
+   "support_before": 5.933114665778303,
+   "support_after": 3.82989071543793,
+   "seconds": 0.17780616600000165
+  },
+  {
+   "mesh": "ballA.off",
+   "seed": 0,
+   "total_area": 605.9094132887942,
+   "support_before": 88.87864118242919,
+   "support_after": 87.31523465707815,
+   "seconds": 0.32226991599999977
+  },
+  {
+   "mesh": "ballA.off",
+   "seed": 1,
+   "total_area": 605.9094132887944,
+   "support_before": 87.66434403450273,
+   "support_after": 87.3152346570782,
+   "seconds": 0.26903099999999824
+  },
+  {
+   "mesh": "ballA.off",
+   "seed": 2,
+   "total_area": 605.9094132887942,
+   "support_before": 88.84180245847764,
+   "support_after": 87.22084763340709,
+   "seconds": 0.1971463749999991
+  },
+  {
+   "mesh": "icosphere",
+   "seed": 0,
+   "total_area": 12.506492733969932,
+   "support_before": 1.8537218172588363,
+   "support_after": 1.8043809054561204,
+   "seconds": 0.0918453339999985
+  },
+  {
+   "mesh": "icosphere",
+   "seed": 1,
+   "total_area": 12.506492733969928,
+   "support_before": 1.8388322946156626,
+   "support_after": 1.8388322946156623,
+   "seconds": 0.1273084589999982
+  },
+  {
+   "mesh": "icosphere",
+   "seed": 2,
+   "total_area": 12.506492733969925,
+   "support_before": 1.8318733337362718,
+   "support_after": 1.8209333760153035,
+   "seconds": 0.24925929199999786
+  },
+  {
+   "mesh": "box",
+   "seed": 0,
+   "total_area": 22.0,
+   "support_before": 6.0,
+   "support_after": 0.0,
+   "seconds": 0.028923625000000897
+  },
+  {
+   "mesh": "box",
+   "seed": 1,
+   "total_area": 22.0,
+   "support_before": 2.0,
+   "support_after": 1.9999999999999998,
+   "seconds": 0.04883612500000112
+  },
+  {
+   "mesh": "box",
+   "seed": 2,
+   "total_area": 22.000000000000007,
+   "support_before": 3.0000000000000027,
+   "support_after": 2.000000000000001,
+   "seconds": 0.04550533400000134
+  },
+  {
+   "mesh": "torus",
+   "seed": 0,
+   "total_area": 47.15468626402183,
+   "support_before": 4.75184657263484,
+   "support_after": 4.506096340856432,
+   "seconds": 0.23690845800000204
+  },
+  {
+   "mesh": "torus",
+   "seed": 1,
+   "total_area": 47.154686264021834,
+   "support_before": 4.424191256194214,
+   "support_after": 4.424191256194214,
+   "seconds": 0.31369345800000303
+  },
+  {
+   "mesh": "torus",
+   "seed": 2,
+   "total_area": 47.154686264021834,
+   "support_before": 6.059378120874202,
+   "support_after": 4.506096340856432,
+   "seconds": 0.1350219999999993
+  },
+  {
+   "mesh": "capsule",
+   "seed": 0,
+   "total_area": 31.357965454019006,
+   "support_before": 5.943045697333405,
+   "support_after": 1.839903874157315,
+   "seconds": 0.20282729200000205
+  },
+  {
+   "mesh": "capsule",
+   "seed": 1,
+   "total_area": 31.35796545401901,
+   "support_before": 1.8181566096437831,
+   "support_after": 1.8181566096437827,
+   "seconds": 0.3999555000000008
+  },
+  {
+   "mesh": "capsule",
+   "seed": 2,
+   "total_area": 31.35796545401901,
+   "support_before": 1.8138331218890498,
+   "support_after": 1.8138331218890493,
+   "seconds": 0.42124608399999985
+  }
+ ]
+}
