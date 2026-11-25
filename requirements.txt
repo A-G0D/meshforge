@@ -12,3 +12,4 @@ scipy>=1.11          # convex hull / orientation search
 networkx>=3.2        # part-connectivity graph for splitting
 manifold3d>=2.5      # robust boolean ops for dowel/socket cutting
 shapely>=2.0         # 2D footprint / overhang analysis
+lib3mf>=2.3          # textured/colour .3mf export
